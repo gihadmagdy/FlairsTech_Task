@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="46.539" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Record counter validation" name="Record counter" time="46.354">
+<system-out><![CDATA[
+When user navigate to login page............................................passed
+And user enter valid credentials............................................passed
+And user click on login button..............................................passed
+Then user navigated to home page............................................passed
+And user click on admin button..............................................passed
+And user get number of record...............................................passed
+And user click on add button................................................passed
+And user select user role...................................................passed
+And user enter name.........................................................passed
+And user select user status.................................................passed
+And user enter user name....................................................passed
+And user enter password and confirm password................................passed
+And user click save.........................................................passed
+Then validate record list updated new record................................passed
+And user remove already added user..........................................passed
+Then validate record list updated...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
